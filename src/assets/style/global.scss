@@ -1,0 +1,9 @@
+@import "./global-parts/variables";
+@import "./global-parts/reset";
+@import "./global-parts/typography";
+@import "./global-parts/containers";
+
+/*-----------------------------
+    LIBS
+------------------------------*/
+@import "~bootstrap/scss/bootstrap.scss";
