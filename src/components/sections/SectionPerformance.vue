@@ -52,7 +52,5 @@ export default {}
   .col-4 img {
     width: 100%;
   }
-  .col-4 {
-  }
 }
 </style>
