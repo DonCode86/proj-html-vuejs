@@ -3,7 +3,7 @@
     <header class="header">
       <div class="container">
         <div
-          class="header-top d-flex align-items-center justify-content-between"
+          class="header-top d-flex align-items-center justify-content-between mt-2"
         >
           <div class="header__logo">
             <img src="../../assets/img/gym_logo_1x.png" alt="" />

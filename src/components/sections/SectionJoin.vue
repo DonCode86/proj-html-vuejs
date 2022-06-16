@@ -24,6 +24,8 @@ export default {}
 <style lang="scss" scoped>
 .join-us {
   background-image: url("../../assets/img/home-parallax.jpg");
+  background-size: cover;
+  background-position-y: -114px;
 
   .text-container {
     padding: 3.125rem 0;

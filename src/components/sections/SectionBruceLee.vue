@@ -24,7 +24,7 @@ export default {}
   background-size: cover;
   background-position: center;
   .section-text {
-    padding: 10rem 8rem;
+    padding: 10rem 7rem;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.125rem;
