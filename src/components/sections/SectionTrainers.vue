@@ -131,14 +131,5 @@ export default {}
     justify-content: center;
     align-items: center;
   }
-
-  button {
-    font-size: 0.875rem;
-    padding: 0.425rem 1.2rem;
-    background: transparent;
-    color: white;
-    border-color: white;
-    opacity: 0.6;
-  }
 }
 </style>

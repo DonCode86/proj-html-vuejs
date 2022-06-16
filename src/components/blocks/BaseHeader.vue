@@ -2,13 +2,25 @@
   <div class="container">
     <header class="header">
       <div class="container">
-        <div class="row">
+        <div
+          class="header-top d-flex align-items-center justify-content-between"
+        >
           <div class="header__logo">
             <img src="../../assets/img/gym_logo_1x.png" alt="" />
           </div>
+          <div class="nav-bar">
+            <ul class="text-white d-flex list-unstyled gap-4">
+              <li
+                v-for="(link, index) in links"
+                :key="index"
+                :class="{ active: link.current }"
+              >
+                <a>{{ link.text }}</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="header__nav"></div>
       <div class="hero__text">
         <h1>NO PAIN NO GAIN</h1>
         <p>
@@ -23,6 +35,42 @@
 <script>
 export default {
   name: "BaseHeader",
+  data() {
+    return {
+      links: [
+        {
+          text: "HOME",
+          href: "#",
+          current: true,
+        },
+        {
+          text: "ABOUT US",
+          href: "#",
+          current: false,
+        },
+        {
+          text: "FACILITIES",
+          href: "#",
+          current: false,
+        },
+        {
+          text: "MEMBERSHIP",
+          href: "#",
+          current: false,
+        },
+        {
+          text: "TESTIMONIALS",
+          href: "#",
+          current: false,
+        },
+        {
+          text: "BLOG",
+          href: "#",
+          current: false,
+        },
+      ],
+    }
+  },
 }
 </script>
 
@@ -38,6 +86,15 @@ export default {
 
   &__logo img {
     width: 9rem;
+  }
+
+  .nav-bar a {
+    font-size: 0.75rem;
+    cursor: pointer;
+  }
+
+  .active a {
+    color: #ee6059;
   }
 
   .hero__text {

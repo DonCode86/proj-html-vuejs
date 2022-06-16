@@ -8,11 +8,13 @@
     <SectionBruceLee />
     <SectionTrainers />
     <SectionNews />
+    <SectionJoin />
   </main>
 </template>
 
 <script>
 import SectionBruceLee from "../sections/SectionBruceLee.vue"
+import SectionJoin from "../sections/SectionJoin.vue"
 import SectionNews from "../sections/SectionNews.vue"
 import SectionPerformance from "../sections/SectionPerformance.vue"
 import SectionResults from "../sections/SectionResults.vue"
@@ -30,6 +32,7 @@ export default {
     SectionBruceLee,
     SectionTrainers,
     SectionNews,
+    SectionJoin,
   },
 }
 </script>
