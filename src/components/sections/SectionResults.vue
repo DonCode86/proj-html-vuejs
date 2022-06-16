@@ -83,7 +83,7 @@ export default {}
   }
 
   .people-text {
-    font-size: 0.725rem;
+    font-size: 0.7rem;
     font-style: italic;
     line-height: 1.4rem;
     margin-bottom: 0.3rem;

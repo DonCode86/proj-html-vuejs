@@ -4,10 +4,14 @@
     <SectionSignUp />
     <SectionWorkOut />
     <SectionResults />
+    <SectionPerformance />
+    <SectionBruceLee />
   </main>
 </template>
 
 <script>
+import SectionBruceLee from "../sections/SectionBruceLee.vue"
+import SectionPerformance from "../sections/SectionPerformance.vue"
 import SectionResults from "../sections/SectionResults.vue"
 import SectionSignUp from "../sections/SectionSignUp.vue"
 import SectionWorkOut from "../sections/SectionWorkOut.vue"
@@ -18,6 +22,8 @@ export default {
     SectionSignUp,
     SectionWorkOut,
     SectionResults,
+    SectionPerformance,
+    SectionBruceLee,
   },
 }
 </script>
