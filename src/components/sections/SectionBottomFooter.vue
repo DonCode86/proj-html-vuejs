@@ -11,7 +11,7 @@
           </div>
           <div class="col-3">
             <div class="social-container">
-              <div class="socials d-flex">
+              <div class="socials d-flex justify-content-end">
                 <div class="facebook social-icon">
                   <i class="fa-brands fa-facebook-f"></i>
                 </div>
