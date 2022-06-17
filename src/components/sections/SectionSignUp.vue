@@ -46,6 +46,7 @@ export default {}
 .section-signup {
   padding: 6rem 0;
   background-color: var(--secondary-color);
+  position: relative;
 
   & h3 {
     font-weight: 800;
