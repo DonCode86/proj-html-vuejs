@@ -84,8 +84,8 @@ export default {}
   }
 
   .col-6:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px 10px white;
+    transform: scale(1.05);
+    box-shadow: 0 0 5px 5px white;
     cursor: pointer;
   }
 

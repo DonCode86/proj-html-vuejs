@@ -130,6 +130,12 @@ export default {}
     background-color: var(--secondary-color);
   }
 
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+    filter: sepia(100%);
+  }
+
   .card-2 {
     left: 19rem;
   }
