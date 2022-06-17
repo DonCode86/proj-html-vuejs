@@ -81,15 +81,15 @@ export default {
   background-image: url(../../assets/img/home-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -2.5rem;
-  min-height: 43.75rem;
+  background-position: 0 -2rem;
+  min-height: 40rem;
 
   &__logo img {
     width: 9rem;
   }
 
   .nav-bar a {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     cursor: pointer;
   }
 
@@ -100,7 +100,7 @@ export default {
   .hero__text {
     text-align: center;
     vertical-align: middle;
-    padding-top: 7.7rem;
+    padding-top: 8.2rem;
     color: white;
 
     & h1 {

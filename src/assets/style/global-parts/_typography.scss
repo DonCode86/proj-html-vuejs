@@ -8,6 +8,14 @@ header {
   font-family: "Montserrat", sans-serif;
 }
 
+footer {
+  font-family: "Open Sans", sans-serif;
+
+  & h4 {
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
 p {
   font-size: 0.875rem;
   color: #aaa9a9;
