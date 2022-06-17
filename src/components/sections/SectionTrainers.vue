@@ -130,6 +130,14 @@ export default {}
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+  }
+  img {
+    transition: transform 0.5s;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
   }
 }
 </style>

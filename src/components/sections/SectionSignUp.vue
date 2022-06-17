@@ -51,10 +51,24 @@ export default {}
     font-weight: 800;
     font-size: 1.125rem;
   }
+  img {
+    max-width: 95%;
+    transition: transform 0.3s;
+  }
+  img:hover {
+    cursor: pointer;
+
+    transform: scale(1.1);
+  }
 
   input {
     background-color: #202325;
     border: 1px solid #3e4346;
+    transition: 0.5s;
+  }
+
+  input:hover {
+    border: 1px solid transparent;
   }
 
   button {

@@ -51,6 +51,13 @@ export default {}
 
   .col-4 img {
     width: 100%;
+    transition: transform 1s;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0 5px 5px rgba(22, 21, 21, 0.391);
   }
 }
 </style>

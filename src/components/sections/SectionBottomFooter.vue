@@ -52,6 +52,7 @@ export default {}
     justify-content: center;
     align-items: center;
     color: #fff;
+    cursor: pointer;
   }
 }
 </style>

@@ -92,6 +92,9 @@ export default {
     font-size: 0.7rem;
     cursor: pointer;
   }
+  .nav-bar a:hover {
+    color: #ee6059;
+  }
 
   .active a {
     color: #ee6059;
