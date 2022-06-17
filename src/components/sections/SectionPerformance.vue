@@ -57,7 +57,8 @@ export default {}
   img:hover {
     transform: scale(1.05);
     cursor: pointer;
-    box-shadow: 0 0 5px 5px rgba(22, 21, 21, 0.391);
+    box-shadow: 0 0 5px 5px rgba(240, 221, 221, 0.391);
+    filter: brightness(200%);
   }
 }
 </style>

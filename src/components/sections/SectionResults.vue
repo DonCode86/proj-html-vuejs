@@ -80,6 +80,13 @@ export default {}
     margin: 1.25rem;
     padding: 1.25rem;
     display: flex;
+    transition: 0.5s;
+  }
+
+  .col-6:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 10px white;
+    cursor: pointer;
   }
 
   .people-text {
