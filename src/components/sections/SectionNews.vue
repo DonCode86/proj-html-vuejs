@@ -248,8 +248,16 @@ export default {}
     justify-content: center;
     opacity: 0;
     font-size: 1.2rem;
+    transition: opacity 0.4s;
+  }
+  .image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.4s;
   }
 
+  .image__overlay:hover > * {
+    transform: translateY(0);
+  }
   .image__overlay:hover {
     opacity: 1;
     cursor: pointer;
