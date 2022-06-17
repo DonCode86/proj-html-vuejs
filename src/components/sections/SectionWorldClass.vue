@@ -14,7 +14,7 @@
           </p>
         </div>
       </div>
-      <div class="triangle-down d-flex"></div>
+      <div class="triangle-down"></div>
     </section>
   </div>
 </template>

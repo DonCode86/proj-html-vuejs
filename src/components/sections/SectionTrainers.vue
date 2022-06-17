@@ -86,6 +86,7 @@
       <div class="btn-container d-flex justify-content-center p-4">
         <button>VIEW ALL TRAINERS</button>
       </div>
+      <div class="triangle-down"></div>
     </section>
   </div>
 </template>
@@ -98,6 +99,7 @@ export default {}
 .trainers {
   background-color: var(--secondary-color);
   padding: 6rem 0;
+  position: relative;
 
   h2,
   h3 {
@@ -138,6 +140,18 @@ export default {}
       cursor: pointer;
       transform: scale(1.1);
     }
+  }
+
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 100px solid var(--secondary-color);
+    position: absolute;
+    bottom: -2rem;
+    right: 35rem;
+    z-index: 10;
   }
 }
 </style>
